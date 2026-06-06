@@ -1,0 +1,150 @@
+:root {
+  --cv-bg: #f1f3f7;
+  --cv-card: #ffffff;
+  --cv-border: #e7e9ef;
+  --cv-border-strong: #dcdfe7;
+  --cv-heading: #1f2937;
+  --cv-text: #4b5563;
+  --cv-muted: #8b93a3;
+  --cv-accent: #4f46e5;
+  --cv-accent-soft: #eef0fb;
+  --cv-radius: 16px;
+  --cv-radius-sm: 10px;
+  --cv-shadow:
+    0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+  background: var(--cv-bg);
+  color: var(--cv-text);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  color: var(--cv-heading);
+  font-weight: 600;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px 56px;
+}
+
+.cv {
+  width: 100%;
+  max-width: 940px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background: var(--cv-card);
+  border: 1px solid var(--cv-border);
+  border-radius: var(--cv-radius);
+  box-shadow: var(--cv-shadow);
+}
+
+.cv-body {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 16px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Section heading shared style */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 12px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--cv-border);
+}
+
+.section-title i {
+  color: var(--cv-accent);
+  font-size: 1rem;
+}
+
+.section-title h2 {
+  font-size: 0.78rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--cv-heading);
+}
+
+.muted {
+  color: var(--cv-muted);
+}
+
+@media (max-width: 760px) {
+  .cv-body {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    position: static;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+  .page {
+    padding: 0;
+  }
+  .lang-switcher {
+    display: none !important;
+  }
+  .card {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+}
