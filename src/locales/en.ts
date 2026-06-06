@@ -15,8 +15,8 @@ export const en: CvMessages = {
     education: "Education",
   },
   profile: {
-    name: "Daniil Sandy",
-    profession: "Full-Stuck Software Engineer, Business Analyst",
+    name: "Aleksandr Shushakov",
+    profession: "Full-Stack Software Engineer, Business Analyst",
     location: "Miami, FL, USA",
   },
   contact: {
@@ -26,17 +26,17 @@ export const en: CvMessages = {
   work: [
     {
       company: "Working on College Projects",
-      period: "2023 – Winter 2024",
+      period: "2023 – Jan. 2024",
       bullets: [
-        "Collaborated with friends on various college projects.",
-        "Worked on front-end and full-stack projects, contributing to planning, development, and testing.",
+        "Worked with friends on various college projects.",
+        "Built Telegram bots, front-end and full-stack projects; involved in planning, development, and testing.",
       ],
     },
     {
-      company: "IKM Soft",
+      company: "IKM Soft LLC (Russia)",
       logo: "ikm",
       role: "Frontend Developer / Quality Control",
-      period: "Winter 2024 – Spring 2024",
+      period: "Jan. 2024 – Oct. 2024",
       bullets: [
         "Developed responsive web applications using Vue 3, TypeScript, and PrimeVue.",
         "Ensured product quality through manual and automated testing.",
@@ -55,10 +55,10 @@ export const en: CvMessages = {
       ],
     },
     {
-      company: "Genesis LLC",
+      company: "Genesis LLC (Russia)",
       logo: "genesis",
       role: "Full Stack Software Engineer / Business Analyst / Tech Support",
-      period: "Autumn 2024 – Present",
+      period: "Oct. 26, 2024 – Present",
       bullets: [
         "Developing full-stack web applications (Vue 3, TypeScript, Node.js).",
         "Analyzing business requirements and translating them into technical solutions.",
@@ -70,7 +70,7 @@ export const en: CvMessages = {
       company: "DSANDY LLC",
       logo: "dsandy",
       role: "Founder / Business Owner",
-      period: "Autumn 2025 – Present",
+      period: "Oct. 30, 2025 – Present",
       note: "Part-time",
       bullets: [
         "Founded my own company in the US focused on AliExpress drop shipping.",
@@ -93,7 +93,7 @@ export const en: CvMessages = {
     },
   ],
   languages: [
-    { name: "English", level: "Excellent", note: "IELTS 9 Band" },
+    { name: "English", level: "Excellent", note: "IELTS 8.3 (9 Speaking)" },
     { name: "中文 (Chinese)", level: "HSK 5", note: "HSK 5 Certificate" },
   ],
   hobbies: [
@@ -105,12 +105,12 @@ export const en: CvMessages = {
     {
       icon: "pi pi-desktop",
       title: "Video Game Modding",
-      desc: "Published a mod with over 13 thousand downloads on Thunderstore.",
+      desc: "Risk of Rain 2 mod (C#) with over 13 thousand downloads on Thunderstore.",
     },
     {
       icon: "pi pi-user",
       title: "Actor / Model Experience",
-      desc: "Worked as an actor and model in China.",
+      desc: "Worked as an actor and model in China. Traveled across China. Live TikTok auction bidding in English.",
     },
   ],
 };

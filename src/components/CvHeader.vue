@@ -2,7 +2,7 @@
 import { useI18n } from "vue-i18n";
 import LanguageSwitcher from "./LanguageSwitcher.vue";
 import { contacts } from "../data/profile";
-import profileImg from "../assets/profile.svg";
+import profileImg from "../assets/photo.jpg";
 
 const { t } = useI18n();
 </script>
@@ -26,7 +26,9 @@ const { t } = useI18n();
           <li v-for="c in contacts" :key="c.id">
             <a
               :href="c.href"
-              :target="c.id === 'email' || c.id === 'phone' ? undefined : '_blank'"
+              :target="
+                c.id === 'email' || c.id === 'phone' ? undefined : '_blank'
+              "
               rel="noopener"
             >
               <i :class="c.icon" aria-hidden="true" />

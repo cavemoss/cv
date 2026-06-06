@@ -15,7 +15,7 @@ export const zh: CvMessages = {
     education: "教育背景",
   },
   profile: {
-    name: "Daniil Sandy",
+    name: "亚历山大",
     profession: "全栈软件工程师，业务分析师",
     location: "美国 佛罗里达州 迈阿密",
   },
@@ -26,17 +26,17 @@ export const zh: CvMessages = {
   work: [
     {
       company: "参与大学项目",
-      period: "2023 – 2024 冬",
+      period: "2023 – 2024年1月",
       bullets: [
         "与朋友合作完成多个大学项目。",
-        "参与前端及全栈项目，负责规划、开发与测试工作。",
+        "制作了 Telegram 机器人、前端及全栈项目，参与规划、开发与测试。",
       ],
     },
     {
-      company: "IKM Soft",
+      company: "IKM Soft LLC (俄罗斯)",
       logo: "ikm",
       role: "前端开发 / 质量控制",
-      period: "2024 冬 – 2024 春",
+      period: "2024年1月 – 2024年10月",
       bullets: [
         "使用 Vue 3、TypeScript 和 PrimeVue 开发响应式 Web 应用。",
         "通过手动与自动化测试确保产品质量。",
@@ -47,7 +47,7 @@ export const zh: CvMessages = {
       company: "SkyEng",
       logo: "skyeng",
       role: "英语教师",
-      period: "2024 夏",
+      period: "2024年夏",
       note: "兼职",
       bullets: [
         "为不同水平的学生开展线上英语课程。",
@@ -55,10 +55,10 @@ export const zh: CvMessages = {
       ],
     },
     {
-      company: "Genesis LLC",
+      company: "Genesis LLC (俄罗斯)",
       logo: "genesis",
       role: "全栈软件工程师 / 业务分析师 / 技术支持",
-      period: "2024 秋 – 至今",
+      period: "2024年10月26日 – 至今",
       bullets: [
         "开发全栈 Web 应用（Vue 3、TypeScript、Node.js）。",
         "分析业务需求并将其转化为技术解决方案。",
@@ -67,10 +67,10 @@ export const zh: CvMessages = {
       ],
     },
     {
-      company: "DSANDY LLC",
+      company: "DSANDY LLC (美国)",
       logo: "dsandy",
       role: "创始人 / 企业主",
-      period: "2025 秋 – 至今",
+      period: "2025年10月30日 – 至今",
       note: "兼职",
       bullets: [
         "在美国创立专注于速卖通代发货业务的公司。",
@@ -93,7 +93,7 @@ export const zh: CvMessages = {
     },
   ],
   languages: [
-    { name: "English（英语）", level: "优秀", note: "雅思 9 分" },
+    { name: "英语", level: "优秀", note: "雅思 8.3（口语9分）" },
     { name: "中文", level: "HSK 5", note: "HSK 5 证书" },
   ],
   hobbies: [
@@ -105,12 +105,12 @@ export const zh: CvMessages = {
     {
       icon: "pi pi-desktop",
       title: "游戏模组制作",
-      desc: "在 Thunderstore 上发布的模组下载量超过 1.3 万次。",
+      desc: "《雨中冒险2》C# 模组在 Thunderstore 下载量超过 1.3 万次。",
     },
     {
       icon: "pi pi-user",
       title: "演员 / 模特经历",
-      desc: "曾在中国从事演员与模特工作。",
+      desc: "曾在中国从事演员与模特工作，走遍中国各地。曾在 TikTok 以英语主持直播拍卖。",
     },
   ],
 };

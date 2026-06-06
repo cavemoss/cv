@@ -33,7 +33,7 @@ export const ru: CvMessages = {
       ],
     },
     {
-      company: "IKM Soft",
+      company: "ООО ИКМ Софт",
       logo: "ikm",
       role: "Frontend-разработчик / Контроль качества",
       period: "Янв. 2024 – Окт. 2024",
@@ -55,7 +55,7 @@ export const ru: CvMessages = {
       ],
     },
     {
-      company: "Genesis LLC",
+      company: "ООО Генезис",
       logo: "genesis",
       role: "Full-Stack разработчик / Бизнес-аналитик / Техподдержка",
       period: "26 Окт. 2024 – Настоящее время",
