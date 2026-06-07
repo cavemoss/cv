@@ -102,7 +102,7 @@ export const ru: CvMessages = {
     {
       name: "Английский",
       level: "Отличный",
-      note: "IELTS band 8.3 (9 speaking)",
+      note: "IELTS 8.3 (9 speaking)",
     },
     { name: "Китайский", level: "Уверенный", note: "Сертификат HSK 5" },
   ],

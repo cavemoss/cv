@@ -10,14 +10,14 @@ export const zh: CvMessages = {
     softSkills: "软技能",
     myStack: "技术栈",
     languages: "语言能力",
-    hobbies: "兴趣与成就",
+    hobbies: "兴趣爱好",
     work: "工作经历",
     education: "教育背景",
   },
   profile: {
     name: "亚历山大",
     profession: "全栈软件工程师，业务分析师",
-    location: "美国 佛罗里达州 迈阿密",
+    location: "中国 西安",
   },
   contact: {
     emailLabel: "邮箱",
@@ -38,9 +38,11 @@ export const zh: CvMessages = {
       role: "前端开发 / 质量控制",
       period: "2024年1月 – 2024年10月",
       bullets: [
-        "使用 Vue 3、TypeScript 和 PrimeVue 开发响应式 Web 应用。",
-        "通过手动与自动化测试确保产品质量。",
-        "与团队协作改进 UI/UX 并修复问题。",
+        "在由 IT 朋友创立的公司工作。",
+        "在团队中参与真实商业项目，积累了实战经验。",
+        "酒店电视软件、工厂门禁系统、会议室多屏展示墙软件。",
+        "开发并维护公司网站。",
+        "负责质量控制和测试。",
       ],
     },
     {
@@ -60,10 +62,12 @@ export const zh: CvMessages = {
       role: "全栈软件工程师 / 业务分析师 / 技术支持",
       period: "2024年10月26日 – 至今",
       bullets: [
-        "开发全栈 Web 应用（Vue 3、TypeScript、Node.js）。",
-        "分析业务需求并将其转化为技术解决方案。",
+        "开发并维护 amoCRM 和 Bitrix24 插件。",
+        "积极参与 Kronos 在线预约系统的开发。",
         "提供技术支持并与客户密切合作。",
         "参与项目规划并改进内部流程。",
+        "在 HelpDeskEddy 平台上开发并部署 AI 智能体，加速技术支持流程。",
+        "进行市场和客户需求分析，编写技术文档。",
       ],
     },
     {
@@ -73,8 +77,10 @@ export const zh: CvMessages = {
       period: "2025年10月30日 – 至今",
       note: "兼职",
       bullets: [
-        "在美国创立专注于速卖通代发货业务的公司。",
-        "负责选品、供应商沟通、店铺运营及市场推广。",
+        "在美国怀俄明州创立专注于速卖通代发货业务的公司。",
+        "负责俄罗斯和美国的财务报告。",
+        "开发了速卖通代发货 SaaS 平台。",
+        "集成 Stripe 支付系统，支持全球收款。",
         "建立并扩展电商品牌。",
       ],
     },
@@ -94,8 +100,8 @@ export const zh: CvMessages = {
   ],
   languages: [
     { name: "英语", level: "良好", note: "雅思 8.3（口语9分）" },
-    { name: "中文", level: "HSK 5", note: "HSK 5 证书" },
-    { name: "俄语", level: "良好" },
+    { name: "中文", level: "自信", note: "HSK 5 证书" },
+    { name: "俄语", level: "母语" },
   ],
   hobbies: [
     {
@@ -111,7 +117,7 @@ export const zh: CvMessages = {
     {
       icon: "pi pi-user",
       title: "演员 / 模特经历",
-      desc: "曾在中国从事演员与模特工作，走遍中国各地。曾在 TikTok 以英语主持直播拍卖。",
+      desc: "曾在中国多个城市从事演员与模特工作。曾在 TikTok 以英语为服装品牌主持直播拍卖。",
     },
   ],
 };

@@ -17,7 +17,7 @@ export const en: CvMessages = {
   profile: {
     name: "Aleksandr Shushakov",
     profession: "Full-Stack Software Engineer, Business Analyst",
-    location: "Miami, FL, USA",
+    location: "Xi'an, China",
   },
   contact: {
     emailLabel: "Email",
@@ -38,9 +38,11 @@ export const en: CvMessages = {
       role: "Frontend Developer / Quality Control",
       period: "Jan. 2024 – Oct. 2024",
       bullets: [
-        "Developed responsive web applications using Vue 3, TypeScript, and PrimeVue.",
-        "Ensured product quality through manual and automated testing.",
-        "Collaborated with the team to improve UI/UX and fix issues.",
+        "Worked at a company founded by my IT friends.",
+        "Gained experience working on a team on real commercial projects.",
+        "Software for hotel TVs, a factory access-control system, and conference-room display wall software.",
+        "Developed and maintained the company website.",
+        "Performed quality control and testing.",
       ],
     },
     {
@@ -60,10 +62,12 @@ export const en: CvMessages = {
       role: "Full Stack Software Engineer / Business Analyst / Tech Support",
       period: "Oct. 26, 2024 – Present",
       bullets: [
-        "Developing full-stack web applications (Vue 3, TypeScript, Node.js).",
-        "Analyzing business requirements and translating them into technical solutions.",
-        "Providing technical support and working closely with clients.",
-        "Participating in project planning and improving internal processes.",
+        "Develop and maintain widgets for amoCRM and Bitrix24.",
+        "Actively involved in developing the Kronos online booking system.",
+        "Provide technical support and work closely with clients.",
+        "Participate in project planning and improving internal processes.",
+        "Developed and deployed an AI agent to speed up tech support on the HelpDeskEddy platform.",
+        "Conduct market and client-needs analysis and prepare technical documentation.",
       ],
     },
     {
@@ -73,9 +77,11 @@ export const en: CvMessages = {
       period: "Oct. 30, 2025 – Present",
       note: "Part-time",
       bullets: [
-        "Founded my own company in the US focused on AliExpress drop shipping.",
-        "Managing product research, supplier communication, store operations, and marketing.",
-        "Building and scaling an e-commerce brand.",
+        "Founded my own company in Wyoming, USA, focused on AliExpress drop shipping.",
+        "Prepare financial reporting in Russia and the USA.",
+        "Developed a SaaS platform for AliExpress drop shipping.",
+        "Integrated Stripe to process payments worldwide.",
+        "Building and growing an e-commerce brand.",
       ],
     },
   ],
@@ -106,12 +112,12 @@ export const en: CvMessages = {
     {
       icon: "pi pi-desktop",
       title: "Video Game Modding",
-      desc: "Risk of Rain 2 mod (C#) with over 13 thousand downloads on Thunderstore.",
+      desc: "My Risk of Rain 2 mod in C# has over 13 thousand downloads on Thunderstore.",
     },
     {
       icon: "pi pi-user",
       title: "Actor / Model Experience",
-      desc: "Worked as an actor and model in China. Traveled across China. Live TikTok auction bidding in English.",
+      desc: "Worked as an actor and model in various cities across China. Hosted a live TikTok auction for a clothing brand in English.",
     },
   ],
 };
