@@ -25,6 +25,7 @@ export const skillGroups: SkillGroup[] = [
       "Git",
       "Python",
       "TypeScript",
+      "FSD",
       "Node.js",
       "Vue",
       "React",
@@ -64,7 +65,7 @@ export const contacts: ContactLink[] = [
   {
     id: "phone2",
     icon: "pi pi-phone",
-    text: "+86 132 5988-5565",
+    text: "+86 (132) 5988-5565",
     href: "tel:+8613259885565",
   },
   {
@@ -88,4 +89,14 @@ export const logoLabels: Record<string, string> = {
   genesis: "GEN",
   dsandy: "DS",
   xupt: "XU",
+};
+
+export const logoUrls: Record<string, string> = {
+  ikm: "",
+  skyeng:
+    "https://cdn-user53347.skyeng.ru/assets/images/favicon/apple-touch-icon.png",
+  genesis:
+    "https://static.tildacdn.com/tild3761-3862-4136-a532-646639306266/favicon.ico",
+  dsandy: "",
+  xupt: "https://english.xsyu.edu.cn/favicon.ico",
 };

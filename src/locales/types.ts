@@ -17,6 +17,7 @@ export type HobbyItem = {
   icon: string;
   title: string;
   desc: string;
+  link?: string;
 };
 
 export type CvMessages = {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed, watch } from "vue";
 import { useI18n } from "vue-i18n";
 import CvHeader from "./components/CvHeader.vue";
 import SkillsCard from "./components/SkillsCard.vue";
@@ -9,10 +9,18 @@ import SectionTitle from "./components/SectionTitle.vue";
 import ExperienceTimeline from "./components/ExperienceTimeline.vue";
 import type { ExperienceItem } from "./locales/types";
 
-const { t, tm } = useI18n();
+const { t, tm, locale } = useI18n();
 
-const work = computed(() => tm("work") as unknown as ExperienceItem[]);
-const education = computed(() => tm("education") as unknown as ExperienceItem[]);
+const work = computed<ExperienceItem[]>(() => tm("work"));
+const education = computed<ExperienceItem[]>(() => tm("education"));
+
+watch(
+  locale,
+  () => {
+    document.title = t("profile.name");
+  },
+  { immediate: true },
+);
 </script>
 
 <template>

@@ -16,7 +16,10 @@ const hobbies = computed<HobbyItem[]>(() => tm("hobbies"));
       <li v-for="(h, i) in hobbies" :key="i" class="hobby">
         <div class="hobby-body">
           <span class="hobby-title">{{ h.title }}</span>
-          <span class="hobby-desc">{{ h.desc }}</span>
+          <span class="hobby-desc">
+            {{ h.desc }}
+            <i v-if="h.link" class="pi pi-external-link icon-link"></i>
+          </span>
         </div>
       </li>
     </ul>

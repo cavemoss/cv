@@ -124,6 +124,15 @@ h4 {
   color: var(--cv-muted);
 }
 
+.icon-link {
+  font-size: 0.8rem;
+}
+
+.icon-link:hover {
+  color: var(--cv-accent);
+  cursor: pointer;
+}
+
 @media (max-width: 760px) {
   .cv-body {
     grid-template-columns: 1fr;

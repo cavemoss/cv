@@ -93,8 +93,9 @@ export const zh: CvMessages = {
     },
   ],
   languages: [
-    { name: "英语", level: "优秀", note: "雅思 8.3（口语9分）" },
+    { name: "英语", level: "良好", note: "雅思 8.3（口语9分）" },
     { name: "中文", level: "HSK 5", note: "HSK 5 证书" },
+    { name: "俄语", level: "良好" },
   ],
   hobbies: [
     {

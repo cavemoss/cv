@@ -10,7 +10,7 @@ export const en: CvMessages = {
     softSkills: "Soft Skills",
     myStack: "My Stack",
     languages: "Languages",
-    hobbies: "Hobbies & Achievements",
+    hobbies: "Hobbies",
     work: "Work Experience",
     education: "Education",
   },
@@ -94,7 +94,8 @@ export const en: CvMessages = {
   ],
   languages: [
     { name: "English", level: "Excellent", note: "IELTS 8.3 (9 Speaking)" },
-    { name: "中文 (Chinese)", level: "HSK 5", note: "HSK 5 Certificate" },
+    { name: "Chinese", level: "Confident", note: "HSK 5 Certificate" },
+    { name: "Russian", level: "Native" },
   ],
   hobbies: [
     {

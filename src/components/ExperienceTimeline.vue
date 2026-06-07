@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ExperienceItem } from "../locales/types";
-import { logoLabels } from "../data/profile";
+import { logoLabels, logoUrls } from "../data/profile";
 
 defineProps<{
   items: ExperienceItem[];
@@ -12,9 +12,10 @@ defineProps<{
   <ol class="timeline">
     <li v-for="(item, i) in items" :key="i" class="entry">
       <span class="marker" :class="{ 'has-logo': item.logo }">
-        <span v-if="item.logo" class="logo">{{
-          logoLabels[item.logo] || "•"
-        }}</span>
+        <template v-if="item.logo">
+          <img v-if="logoUrls[item.logo]" :src="logoUrls[item.logo]" />
+          <span v-else class="logo">{{ logoLabels[item.logo] || "•" }}</span>
+        </template>
         <i v-else :class="fallbackIcon" aria-hidden="true" />
       </span>
 
@@ -81,10 +82,15 @@ defineProps<{
   background: var(--cv-card);
   border: 1.5px solid var(--cv-border-strong);
   color: var(--cv-muted);
+  overflow: hidden;
 }
 
 .marker i {
   font-size: 0.85rem;
+}
+
+.marker img {
+  max-width: 100%;
 }
 
 .marker.has-logo {
